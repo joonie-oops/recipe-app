@@ -11,7 +11,6 @@
 		76D5743926773F3B005CC4FC /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5743826773F3B005CC4FC /* RecipeListView.swift */; };
 		76D5743B26773F45005CC4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D5743A26773F45005CC4FC /* Assets.xcassets */; };
 		76D5743E26773F45005CC4FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D5743D26773F45005CC4FC /* Preview Assets.xcassets */; };
-		76D5744D26774020005CC4FC /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 76D5744C26774020005CC4FC /* recipes.json */; };
 		76D57450267740A5005CC4FC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5744F267740A5005CC4FC /* Recipe.swift */; };
 		76D57453267742B0005CC4FC /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D57452267742B0005CC4FC /* RecipeModel.swift */; };
 		76D5745726774459005CC4FC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5745626774459005CC4FC /* DataService.swift */; };
@@ -19,6 +18,7 @@
 		76DA6526267A6A79006AD8B7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 76DA6525267A6A79006AD8B7 /* index.html */; };
 		76DA6529267A6A90006AD8B7 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 76DA6528267A6A90006AD8B7 /* test.json */; };
 		76DA652C267A6B0F006AD8B7 /* what.json in Resources */ = {isa = PBXBuildFile; fileRef = 76DA652B267A6B0F006AD8B7 /* what.json */; };
+		76DA652F267A6B97006AD8B7 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 76DA652E267A6B97006AD8B7 /* recipes.json */; };
 		76FEB7D02679E27F00D1BF52 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FEB7CF2679E27F00D1BF52 /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,6 @@
 		76D5743A26773F45005CC4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D5743D26773F45005CC4FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76D5743F26773F45005CC4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76D5744C26774020005CC4FC /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../../../Downloads/RecipeListApp Resources/recipes.json"; sourceTree = "<group>"; };
 		76D5744F267740A5005CC4FC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		76D57452267742B0005CC4FC /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		76D5745626774459005CC4FC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		76DA6525267A6A79006AD8B7 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		76DA6528267A6A90006AD8B7 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		76DA652B267A6B0F006AD8B7 /* what.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = what.json; sourceTree = "<group>"; };
+		76DA652E267A6B97006AD8B7 /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		76FEB7CF2679E27F00D1BF52 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,10 +120,10 @@
 		76D5744A26773FAF005CC4FC /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				76D5744C26774020005CC4FC /* recipes.json */,
 				76DA6525267A6A79006AD8B7 /* index.html */,
 				76DA6528267A6A90006AD8B7 /* test.json */,
 				76DA652B267A6B0F006AD8B7 /* what.json */,
+				76DA652E267A6B97006AD8B7 /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -196,8 +196,8 @@
 				76D5743E26773F45005CC4FC /* Preview Assets.xcassets in Resources */,
 				76DA6526267A6A79006AD8B7 /* index.html in Resources */,
 				76DA6529267A6A90006AD8B7 /* test.json in Resources */,
-				76D5744D26774020005CC4FC /* recipes.json in Resources */,
 				76D5743B26773F45005CC4FC /* Assets.xcassets in Resources */,
+				76DA652F267A6B97006AD8B7 /* recipes.json in Resources */,
 				76DA652C267A6B0F006AD8B7 /* what.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
