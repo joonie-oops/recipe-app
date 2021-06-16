@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				76D5744B26773FBB005CC4FC /* Services */,
-				76D5744A26773FAF005CC4FC /* Data */,
+				76D5744A26773FAF005CC4FC /* Misc */,
 				76D5744926773FA1005CC4FC /* ViewModels */,
 				76D5744826773F9C005CC4FC /* Models */,
 				76D5744726773F98005CC4FC /* Views */,
@@ -111,12 +111,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		76D5744A26773FAF005CC4FC /* Data */ = {
+		76D5744A26773FAF005CC4FC /* Misc */ = {
 			isa = PBXGroup;
 			children = (
 				76D5744C26774020005CC4FC /* recipes.json */,
 			);
-			path = Data;
+			path = Misc;
 			sourceTree = "<group>";
 		};
 		76D5744B26773FBB005CC4FC /* Services */ = {
