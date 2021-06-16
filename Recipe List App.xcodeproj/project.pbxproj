@@ -18,6 +18,7 @@
 		76D5745A26777B0B005CC4FC /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5745926777B0B005CC4FC /* RecipeDetailView.swift */; };
 		76DA6526267A6A79006AD8B7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 76DA6525267A6A79006AD8B7 /* index.html */; };
 		76DA6529267A6A90006AD8B7 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 76DA6528267A6A90006AD8B7 /* test.json */; };
+		76DA652C267A6B0F006AD8B7 /* what.json in Resources */ = {isa = PBXBuildFile; fileRef = 76DA652B267A6B0F006AD8B7 /* what.json */; };
 		76FEB7D02679E27F00D1BF52 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FEB7CF2679E27F00D1BF52 /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		76D5745926777B0B005CC4FC /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		76DA6525267A6A79006AD8B7 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		76DA6528267A6A90006AD8B7 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		76DA652B267A6B0F006AD8B7 /* what.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = what.json; sourceTree = "<group>"; };
 		76FEB7CF2679E27F00D1BF52 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				76D5744C26774020005CC4FC /* recipes.json */,
 				76DA6525267A6A79006AD8B7 /* index.html */,
 				76DA6528267A6A90006AD8B7 /* test.json */,
+				76DA652B267A6B0F006AD8B7 /* what.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				76DA6529267A6A90006AD8B7 /* test.json in Resources */,
 				76D5744D26774020005CC4FC /* recipes.json in Resources */,
 				76D5743B26773F45005CC4FC /* Assets.xcassets in Resources */,
+				76DA652C267A6B0F006AD8B7 /* what.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
