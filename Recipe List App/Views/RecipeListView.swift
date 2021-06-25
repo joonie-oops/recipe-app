@@ -14,25 +14,38 @@ struct RecipeListView: View {
     var body: some View {
         
         NavigationView {
-            List(model.recipes) { r in
+            VStack(alignment: .leading) {
+                Text("All Recipes")
+                    .font(.largeTitle)
+                    .bold()
+                    .padding(.top, 40)
                 
-                NavigationLink(
-                    destination: RecipeDetailView(recipe: r),
-                    label: {
-                        
-                        // MARK: Row item
-                        HStack(spacing: 20.0) {
-                            Image(r.image)
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .clipped()
-                                .cornerRadius(5.0)
-                            Text(r.name)
+                ScrollView {
+                    LazyVStack(alignment: .leading) {
+                        ForEach(model.recipes) { r in
+                            
+                            NavigationLink(
+                                destination: RecipeDetailView(recipe: r),
+                                label: {
+                                    
+                                    // MARK: Row item
+                                    HStack(spacing: 20.0) {
+                                        Image(r.image)
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                            .clipped()
+                                            .cornerRadius(5.0)
+                                        Text(r.name)
+                                            .foregroundColor(.black)
+                                    }
+                                })
                         }
-                    })
+                    }
+                }
             }
-            .navigationBarTitle("All Recipes")
+            .navigationBarHidden(true)
+            .padding(.leading)
         }
     }
 }
@@ -42,6 +55,7 @@ struct RecipeListView_Previews: PreviewProvider {
         Group {
             RecipeListView()
                 .previewDevice("iPhone 12")
+                .environmentObject(RecipeModel())
         }
     }
 }

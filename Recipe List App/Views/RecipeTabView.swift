@@ -33,5 +33,6 @@ struct RecipeTabView: View {
 struct RecipeTabView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeTabView()
+            .previewDevice("iPhone 11")
     }
 }
